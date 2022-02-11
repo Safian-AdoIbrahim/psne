@@ -11,7 +11,7 @@ var geoData = null, dataLayer = null, markerGroup = null,
 //Initiating and declaring leaflet map object
 var map = L.map('map', {
     center: [9, 8],
-    zoom: 6,
+    zoom: 4,
 //    animation: true,
     zoomControl: false,
     layers: [osm],
