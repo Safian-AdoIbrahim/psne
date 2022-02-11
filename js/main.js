@@ -15,8 +15,8 @@ var map = L.map('map', {
 //    animation: true,
     zoomControl: false,
     layers: [osm],
-    minZoom: 6,
-    maxZoom: 22
+    minZoom: 4,
+    maxZoom: 28
 
 });
 //map.options.minZoom = 5;
