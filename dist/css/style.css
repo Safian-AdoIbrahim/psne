@@ -1,0 +1,156 @@
+/* #map { 
+    height: 100%; 
+    width: 100%;
+    position:absolute;
+  } */
+
+/* .immap_logo {
+    padding-top:42vh;
+  } */
+    /* #wrapper1 {
+      margin: 0 auto;
+      width: 100%;
+    } */
+    
+    /* #panel1{
+      float: left;
+      width: 100%;
+      height:50px;
+      background-color: #175B81;
+      color:white;
+    } */
+
+    body {
+      overflow: hidden;
+    }
+
+    #map {
+      float: left;
+      width: 75%;
+      height: 88vh;
+      z-index: 820;
+    
+    }
+    
+    /* .sidebar1 {
+      float: left;
+      width: 20%;
+      height:83vh;
+      background-color: white;
+      color: #175B81;
+      top: 46px;
+    } */
+    
+  .sidebar1 {
+      height: 88vh;
+      width: 25%;
+      /* position: absolute; */
+      z-index: 820;
+      top: 46px;
+      left: 100vw;
+      background-color: whitesmoke;
+      overflow-x: hidden;
+      padding-top: 20px;
+      border-left: 2px solid #eee
+  }
+    .text-labels     {
+      font-weight: bold;
+      color:#006400;
+      font-family: "Arial Black";
+      font-size: 20px ;
+      line-height:25px;
+      text-align:center;
+       }
+       
+    table, th, td 
+      {
+        margin:0px 5px;
+        /* border:solid 1px #333; */
+        padding:2px 4px;
+        /* font:10px Verdana; */
+      }
+    /* th {
+        font-size:14px;
+        font-weight:bold
+      } */
+    /* td {
+        font-size:14px;
+        font-weight:normal
+      } */
+    /* tr {
+        background: rgba(167, 165, 165, 0.137);
+      } */
+      
+    /* tbody  tr:hover {
+        background: rgba(167, 165, 165, 0.137);
+      }
+    table {
+        border-collapse: collapse;
+      }  
+    .table a
+    {
+        display:block;
+        text-decoration:none;
+    } */
+
+    
+    #f1{
+      font-weight:bold
+    }
+    .p2 {
+        font-size: 24px;
+        font-weight:bold;
+        position: relative;
+        top: 11px;
+        left: 20px;
+    }
+
+    .main-footer {
+      background: #fff;
+      padding: 10px !important;
+      color: #444;
+      border-top: 1px solid #eee;
+    }
+
+    .leaflet-popup-content-wrapper {
+      padding: 1px;
+      text-align: left;
+      border-radius: 3px !important;
+  }
+
+
+
+
+
+
+
+
+    /* Media Queries */
+
+ /* Desktops and laptops ----------- */
+
+ @media only screen  and (min-width : 1080px) {
+  .immap_logo {
+      padding-top: 32vh;
+  }
+}
+  /* #map { 
+      height: 87vh; 
+      width: 100vw;
+      position:absolute;
+    } */
+  /* } */
+
+  /* Larger screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  .immap_logo {
+      padding-top: 46vh; 
+  } 
+     .sidebar1{
+       height:90.6vh;
+     }
+     #map {
+      height: 90.6vh;
+  
+      } 
+ }
